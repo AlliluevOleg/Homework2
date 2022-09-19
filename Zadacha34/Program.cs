@@ -19,11 +19,6 @@ int Count (int[] array)
     }
     return Count;
 }
-int CheckNum(string message)
-{
-    System.Console.WriteLine(message);
-    return Convert.ToInt32(Console.ReadLine);
-}
 
 
 int size = 10;
