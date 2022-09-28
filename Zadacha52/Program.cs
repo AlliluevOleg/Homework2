@@ -34,4 +34,3 @@ for (int j = 0; j < array.GetLength(1); j++)
     }
     result = result / n;
     System.Console.Write(result + "; ");
-}
