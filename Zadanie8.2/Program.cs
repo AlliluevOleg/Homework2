@@ -1,37 +1,4 @@
-﻿/* int[,] array1 = new int { { 2, 4 }, { 3, 2 } };
-int[,] array2 = new int { { 3, 4 }, { 3, 3 } };
-
-PrintArray(MultiMatrix(array1, array2));
-int [,] MultiMatrix(int[,] array1, int[,] array2)
-{
-    int result = new int[array1.GetLength(0), array2.GetLength(1)];
-    int sum = 0;
-    for (int i = 0; i < array1.GetLength(0); i++)
-    {
-        for (int j = 0; j < array2.GetLength(1); j++)
-        {
-            sum = 0;
-            for (int k = 0; k < array1.GetLength(1); k++)
-            {
-                sum += array1[i ,k] * array2[k, j];
-            }
-            result[i ,j] = sum;
-        }
-    }
-
-}
-void PrintArray(int[,] array)
-{
-    int[] buf = new int[array.GetLength(1)];
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            buf[j] = array[i, j];
-        }
-        System.Console.WriteLine("[{0}]", string.Join(", ", buf));
-    }
-} */
+﻿
 int InputInt(string output)
 {
     Console.Write(output);
